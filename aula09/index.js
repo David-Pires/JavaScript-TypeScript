@@ -7,3 +7,11 @@
 nome = 'Meu Nome';
 
 console.log(nome);
+
+// let uma vez declarada o valor não pode ser alterado utilizando Let novamente
+
+
+let nome = 'luiz'
+// let nome = 'gabriel'        isto geraria um erro 
+
+nome = 'gabriel'  // declarando apenas o nome da variavel neste caso nome e atribuir novo valor
