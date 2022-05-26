@@ -27,12 +27,17 @@ pré incremento
 */
 
 const num1 = 5 
-const num2 = 10
+const num2 = Number('10')
 
+
+
+
+const passo = 2
 let contador = 1
 
-contador++
-contador--
+contador = contador + passo
+console.log(contador);
+
 
 console.log(num1 + num2);
 console.log(num1 * num2);
