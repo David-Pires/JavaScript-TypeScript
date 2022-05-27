@@ -1,47 +1,11 @@
-/*
-=== Aritméticos ===
+let varA = 'A'
+let varB = 'B'
+let varC = 'C'
 
-+ adição e concatenação 
-- subtração
-/ divisão
-** potenciação 
-% resto da divisão 
+[varA, varB, varC] = [varB, varC, varA]
 
-=== precedência === 
+// varA = 'B'
+// varB = 'C'
+// varC = 'A'
 
-1º() parenteses 
-2º** potenciação 
-3º* / %  multiplicação, divisão, resto de divisão 
-4º + - 
-
-=== Incremento === 
-++
-=== Decremento === 
---
-
-pré incremento 
-
-++nomeVariavel
---nomeVariavel 
-
-*/
-
-const num1 = 5 
-const num2 = Number('10')
-
-
-
-
-const passo = 2
-let contador = 1
-
-contador = contador + passo
-console.log(contador);
-
-
-console.log(num1 + num2);
-console.log(num1 * num2);
-console.log(num1 / num2);
-console.log(num1 ** num2);
-console.log(num1 % num2);
-console.log(num1 + num2 - num1 + num2);
+console.log(varA, varB, varC);
