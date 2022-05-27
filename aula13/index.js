@@ -2,7 +2,7 @@
 //
 
 // let umaString = 'Um \"texto\"'  barra para caractere por espaço 
-let umaString = 'Um texto'
+let umaString = 'Um texto mais um texto'
 
 console.log(umaString[1]);
 console.log(umaString.charAt(1));
@@ -15,4 +15,10 @@ console.log(umaString.match(/[a-z]/));
 console.log(umaString.search(/x/));
 console.log(umaString.replace('texto', 'dado'));
 console.log(umaString.length);
+console.log(umaString.slice(1,5));
+console.log(umaString.slice(-5,1));
+console.log(umaString.split('u', 2));
+console.log(umaString.toUpperCase());
+console.log(umaString.toLowerCase());
+
 
