@@ -1,41 +1,13 @@
-//aula 13 - strings 
-//
-
-// let umaString = 'Um \"texto\"'  barra para caractere por espaço 
-// let umaString = 'Um texto mais um texto'
-
-// console.log(umaString[1]);
-// console.log(umaString.charAt(1));
-// console.log(umaString.concat(' ', 'em', ' ', 'um'));
-// console.log(`${umaString} mais um dia aqui no ITI`);
-// console.log(umaString.indexOf('texto', 2));
-// console.log(umaString.lastIndexOf('o'));
-// console.log(umaString.match(/[a-z]/g)); //expressão regular 
-// console.log(umaString.match(/[a-z]/));
-// console.log(umaString.search(/x/));
-// console.log(umaString.replace('texto', 'dado'));
-// console.log(umaString.length);
-// console.log(umaString.slice(1,5));
-// console.log(umaString.slice(-5,1));
-// console.log(umaString.split('u', 2));
-// console.log(umaString.toUpperCase());
-// console.log(umaString.toLowerCase());
+//aula 14 - numbers 
 
 
+let num1 = 7
+let num2 = 2.5
+let num3 = 20.554054156
 
-//+= mais e recebe acrescenta ao invés de substituir
+console.log(num1.toString() + num2);
 
-// const digiteSeuNome = prompt('Digite seu nome')
-
-let digiteSeuNome = 'David Pires da Silva'
-
-
-document.body.innerHTML = `O nome digitado é: ${digiteSeuNome} <br />`
-document.body.innerHTML += `Seu nome tem: ${digiteSeuNome.length} letras <br/>`
-document.body.innerHTML += `A segunda letra do seu nome é: ${digiteSeuNome.charAt(1)} <br/>`//${digiteSeuNome[1]}
-document.body.innerHTML += `O primeiro índice é: ${digiteSeuNome.indexOf('a')} <br />`
-document.body.innerHTML += `Qual é o último índice da letra "a" no seu nome?: ${digiteSeuNome.indexOf('d')} <br />`
-document.body.innerHTML += `As últimas 3 letras do seu nome são: ${digiteSeuNome.slice(-3,)} <br />`
-document.body.innerHTML += `Letras do seu nome: ${digiteSeuNome.split(' ')} <br />`
-document.body.innerHTML += `Seu nome com letras maiúsculas: ${digiteSeuNome.toUpperCase()} <br />`
-document.body.innerHTML += `Seu nome com letras minúsculas: ${digiteSeuNome.toLowerCase()}`
+document.body.innerHTML += num1.toString() + num2 //converter para string .toString()
+document.body.innerHTML += `<br /> typeof ${num1} `
+document.body.innerHTML += `<br /> ${num1.toString(2)}` // representação binaria do número 5 
+document.body.innerHTML += `<br /> ${num3.toFixed(2)}` // .toFixed(2) escolher quantas casas decimais você irá apresentar
