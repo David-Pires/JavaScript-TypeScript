@@ -27,14 +27,15 @@
 
 // const digiteSeuNome = prompt('Digite seu nome')
 
-let digiteSeuNome = 'David'
+let digiteSeuNome = 'David Pires da Silva'
 
 
 document.body.innerHTML = `O nome digitado é: ${digiteSeuNome} <br />`
 document.body.innerHTML += `Seu nome tem: ${digiteSeuNome.length} letras <br/>`
-document.body.innerHTML += `A segunda letra do seu nome é: ${digiteSeuNome.charAt(1)} <br/>`
-document.body.innerHTML += `O primeiro índice é: ${digiteSeuNome.indexOf()} <br />`
-document.body.innerHTML += `Qual é o último índice da letra "a" no seu nome? <br />`
-document.body.innerHTML += `As últimas 3 letras do seu nome são: <br />`
+document.body.innerHTML += `A segunda letra do seu nome é: ${digiteSeuNome.charAt(1)} <br/>`//${digiteSeuNome[1]}
+document.body.innerHTML += `O primeiro índice é: ${digiteSeuNome.indexOf('a')} <br />`
+document.body.innerHTML += `Qual é o último índice da letra "a" no seu nome?: ${digiteSeuNome.indexOf('d')} <br />`
+document.body.innerHTML += `As últimas 3 letras do seu nome são: ${digiteSeuNome.slice(2,)} <br />`
+document.body.innerHTML += `Letras do seu nome: ${digiteSeuNome.split(' ')} <br />`
 document.body.innerHTML += `Seu nome com letras maiúsculas: ${digiteSeuNome.toUpperCase()} <br />`
 document.body.innerHTML += `Seu nome com letras minúsculas: ${digiteSeuNome.toLowerCase()}`
