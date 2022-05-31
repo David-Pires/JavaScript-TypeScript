@@ -16,5 +16,9 @@ const removidoDoArray = document.body.innerHTML += `<br /> ${alunos.pop()}`
 document.body.innerHTML += `<br /> ${alunos}`
 document.body.innerHTML += alunos.shift() // remove o primeiro item o array
 document.body.innerHTML += `<br /> ${alunos}`
+document.body.innerHTML += `<br /> ${alunos.unshift('barlo')}` // add a item no inicio do array
+
+document.body.innerHTML += `<br /> ${alunos}`
+
 
 
