@@ -1,18 +1,19 @@
-// aula 24 If, else if e else
+// aula 25 If, else if e else
 
 /*
-Entre 0 - 11 Bom dia
-Entre 12 - 17 - Boa tarde
-Entre 18 - 23 - Boa noite
+
 */
 
-const hora = Number(prompt('Que horas são agora?'))
-if (hora >= 0 && hora <= 11) {
-  document.body.innerHTML += 'Bom dia';
-} else if (hora >= 12 && hora <= 17) {
-  document.body.innerHTML += 'Boa tarde';  
-} else if (hora >=18 && hora <= 23) {
-  document.body.innerHTML += 'Boa noite';
+const numero = 16
+
+if (numero >= 6 && numero <= 9) {
+  console.log('O número está entre 6 e 9');
+} else if (numero >= 10 && numero <= 15) {
+  console.log('O número está entre 10 e 15');
 } else {
-  document.body.innerHTML += 'Olá'
+  console.log('Número não esta entre a referência');
+}
+
+if (numero >= 16 && numero <=100) {
+  console.log('Numero está entre 16 e 100');
 }
