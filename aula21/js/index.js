@@ -7,8 +7,10 @@ OPERADORES DE COMPARAÇÃO
 < menor que
 <= menor que
 == igualdade (valor)**** geralmente não usa
-=== igualdade estrita 
+=== igualdade estrita  ( valor e tipo)
 != diferente (valor)**** geralmente não usa
-!== diferente estrito
+!== diferente estrito ( valor e tipo)
 
 */
+const comp = 10 >= 5
+console.log(10 > 5)
