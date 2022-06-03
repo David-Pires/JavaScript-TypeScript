@@ -1,4 +1,5 @@
 {
   "cSpell.words": ["saudacao", "variavel"],
-  "livePreview.defaultPreviewPath": "/aula17/index.html"
+  "livePreview.defaultPreviewPath": "/aula17/index.html",
+  "cSpell.ignoreWords": ["nivel"]
 }
