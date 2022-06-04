@@ -18,7 +18,9 @@ const comparaParametro = novoParametro <= 10 ? 'Parâmetro está abaixo do permi
 console.log(comparaParametro);
 
 
-
+const corUsuario = null
+const corPadrao = corUsuario || 'preta' // ou 
+console.log(corPadrao);
 
 
 
