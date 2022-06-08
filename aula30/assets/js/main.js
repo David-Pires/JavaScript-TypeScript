@@ -1,7 +1,7 @@
 
-const h1 = document.querySelector('.container h1')
-const data = new Date()
-h1.innerHTML = data.toLocaleDateString()
+// const h1 = document.querySelector('.container h1')
+// const data = new Date()
+// h1.innerHTML = data.toLocaleDateString()
 
 
 // function getDiaSemanaTexto (diaSemana) {
@@ -36,3 +36,5 @@ h1.innerHTML = data.toLocaleDateString()
 //   }
 // }
 
+
+console.log(('1' + 2) / '3') 
