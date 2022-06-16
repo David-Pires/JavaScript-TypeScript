@@ -1,0 +1,1 @@
+// Aula 32 - Atribuição via desestruturação
