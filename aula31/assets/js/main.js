@@ -1,40 +1,27 @@
+const verdadeira = true 
 
-// const h1 = document.querySelector('.container h1')
-// const data = new Date()
-// h1.innerHTML = data.toLocaleDateString()
+// let tem escopo de bloco { ... bloco}
+// var só tem escopo de função
+
+// let nome = 'David' // criando
+// var nome2 = 'David'
 
 
-// function getDiaSemanaTexto (diaSemana) {
-//   let diaSemanaTexto
+// if (verdadeira) {
+//   let nome = 'David Pires'
+//   console.log(nome, nome2);
 
-//   switch (diaSemana) {
-//     case 0:
-//       diaSemanaTexto = "Domingo";
-//       return diaSemanaTexto
-//     case 1:
-//       diaSemanaTexto = "Segunda-feira";
-//       return diaSemanaTexto
-//     case 2:
-//       diaSemanaTexto = "Terça-feira";
-//       return diaSemanaTexto
-//     case 3:
-//       diaSemanaTexto = "Quarta-feira";
-//       return diaSemanaTexto
-//     case 4:
-//       diaSemanaTexto = "Quinta-feira"; 
-//       return diaSemanaTexto
-//     case 5:
-//       diaSemanaTexto = "Sexta-feira";
-//       return diaSemanaTexto
-//     case 6:
-//       diaSemanaTexto = "Sábado";
-//       return diaSemanaTexto
-  
-//     default:
-//       diaSemanaTexto = '';
-//       return diaSemanaTexto
+//   if (verdadeira) {
+//     console.log('Ok');
 //   }
+
 // }
 
+var sobrenome = 'Pires'
+function falaEu () {
+  // var nome = 'David'
+  console.log(sobrenome);
 
-console.log(('1' + 2) / '3') 
+}
+
+falaEu()
